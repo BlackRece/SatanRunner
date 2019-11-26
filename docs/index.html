@@ -1,37 +1,235 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>BlackRece | Satan Runner</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>BlackRece | SatanRunner</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://blackrece.github.io/assets/css/main.css" />
+
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL Build.json", {onProgress: UnityProgress});
     </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Satan Runner</div>
-      </div>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header">
+
+        <div class="top">
+
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="https://blackrece.github.io/images/Rece image.jpg" alt="picture of Rece Thompson-Hamilton" /></span>
+                <!--<img class="image avatar48" src="images/Rece image.jpg" alt="picture of Rece Thompson-Hamilton" />-->
+                <h1 id="title">Rece <br />Thompson-Hamilton</h1>
+                <p>Games Developer</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                  <li><a href="https://blackrece.github.io/" id="top-link"><span class="icon fa-home">Back to portfolio</span></a></li>
+                  <li><hr/></li>
+                  <li><a href="https://www.kongregate.com/games/BlackRece/shapegambler-prototype-v1" class="image fit"><img src="https://blackrece.github.io/images/Shape_Gambler.png" alt="Shape Gambler - Prototype V1" /></a></li>
+                  <li><a href="https://www.kongregate.com/games/BlackRece/tri-fighter" class="image fit"><img src="https://blackrece.github.io/images/TriFighter_Icon.png" alt="TriFighter" /></a></li>
+                  <li><a href="https://blackrece.github.io/#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="bottom">
+
+            <!-- Social Icons -->
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/mauriceth" class="icon fa-linkedin"><span class="label">MauriceTH on LinkedIn</span></a></li>
+                <li><a href="https://twitter.com/BlackRece" class="icon fa-twitter"><span class="label">@BlackRece on Twitter</span></a></li>
+                <li><a href="https://github.com/BlackRece" class="icon fa-github"><span class="label">BlackRece on GitHub</span></a></li>
+                <li><a href="mailto:blackrece@gmail.com" class="icon fa-envelope"><span class="label">blackrece@gmail.com</span></a></li>
+            </ul>
+        </div>
     </div>
-      <div>
-          <h3>Controls</h3>
-          <table>
-            <tr><td>Forward</td><td>W</td></tr>
-            <tr><td>Backward</td><td>S</td></tr>
-            <tr><td>Move Left</td><td>A</td></tr>
-            <tr><td>Move Right</td><td>D</td></tr>
-            <tr><td>Jump</td><td>Space Bar</td></tr>
-          </table>
-          <p>You are SATAN! You have to MOVE FORWARD along the Pope's train, evading obstacles to reach and defeat the Pope.</p>
-          <p><a href="../index.html">Return home</a></p>
-      </div>
-  </body>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="two">
+            <div class="container">
+
+                <header>
+                    <h2>Satan Runner</h2>
+                </header>
+
+                <p>A collection of games and applications of which I have participated; </p>
+
+                <div class="row">
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="https://www.kongregate.com/games/BlackRece/shapegambler-prototype-v1" class="image fit"><img src="images/Shape_Gambler.png" alt="Shape Gambler - Prototype V1" /></a>
+                            <header>
+                                <h3>Shape Gambler - Prototype V1</h3>
+                            </header>
+                            <div class="webgl-content">
+                              <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                              <div class="footer">
+                                <div class="webgl-logo"></div>
+                                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                                <div class="title">Satan Runner</div>
+                              </div>
+                            </div>
+                              <div>
+                                  <h3>Controls</h3>
+                                  <table>
+                                    <tr><td>Forward</td><td>W</td></tr>
+                                    <tr><td>Backward</td><td>S</td></tr>
+                                    <tr><td>Move Left</td><td>A</td></tr>
+                                    <tr><td>Move Right</td><td>D</td></tr>
+                                    <tr><td>Jump</td><td>Space Bar</td></tr>
+                                  </table>
+                                  <p>You are SATAN! You have to MOVE FORWARD along the Pope's train, evading obstacles to reach and defeat the Pope.</p>
+                        </article>
+                        <!--article class="item">
+                            <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <header>
+                                <h3>Ipsum Feugiat</h3>
+                            </header>
+                        </article-->
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="https://blackrece.github.io/SatanRunner/" class="image fit"><img src="images/satan_runner.jpg" alt="Satan Runner" /></a>
+                            <header>
+                                <h3>Satan Runner</h3>
+                            </header>
+                            <div class="info">
+                                <p>Staffordshire University GameJam Winner 2018.</p>
+                                <p>Made using Unity3d.</p>
+                                <p>Source files available on GitHub</p>
+                            </div>
+                        </article>
+                        <!--article class="item">
+                            <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+                            <header>
+                                <h3>Natoque Vitae</h3>
+                            </header>
+                        </article-->
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="https://www.kongregate.com/games/BlackRece/tri-fighter" class="image fit"><img src="images/TriFighter_Icon.png" alt="TriFighter" /></a>
+                            <header>
+                                <h3>TriFighter</h3>
+                            </header>
+                            <div class="info">
+                                <p>A side-scrolling shooter using shapes.</p>
+                                <p>Made using ActionScript.</p>
+                                <p>Flash required.</p>
+                            </div>
+                        </article>
+                        <!--article class="item">
+                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <header>
+                                <h3>Orci Convallis</h3>
+                            </header>
+                        </article-->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
+            <div class="container">
+
+                <header class="bg">
+                    <div class="reset">
+                        <h2 class="alt reset"> Hi! I'm <strong>Rece Thompson-Hamilton</strong>,</h2>
+                        <p class="reset">a passonate Computer Games Programming student at <a href="http://www.staffs.ac.uk">Staffordshire University</a>.</p>
+                        <p>I specialise in <i>game mechanics</i> and I love to make games more than playing them.</p>
+                        <p>&nbsp;</p>
+                    </div>
+                </header>
+                    
+                <footer>
+                        
+                </footer>
+
+            </div>
+        </section>
+
+		
+		<section id="skills" class="three">
+			<div class="container">
+				<header>
+					<h2>My Skills</h2>
+                </header>
+                
+                <div>
+                    <table style="text-align: center;">
+                        <tbody>
+                            <tr><td>C/C++</td><td>C#</td></tr>
+                            <tr><td>Visual Basic</td><td>Visual C</td></tr>
+                            <tr><td>HTML</td><td>CSS</td></tr>
+                            <tr><td>JavaScript</td><td>Java</td></tr>
+                            <tr><td>Unreal Engine</td><td>Unity</td></tr>
+                            <tr><td>GitHub</td><td>.Net</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+				<!--canvas id="skillsChart" /-->
+				
+			</div>
+		</section>
+
+        <!-- About Me -->
+        <section id="about" class="four">
+            <div class="container">
+
+                <header>
+                    <h2>About Me</h2>
+                </header>
+
+                <!--a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a-->
+                <div class="banner">
+                    <!--<img src="images/dragon twitter banner 1500x500.png" alt="" />-->
+                    <img class="" src="https://blackrece.github.io/images/Rece image.jpg" alt="Rece the Developer" />
+                    <!--<div class="portrait-clear">&nbsp;</div>-->
+                </div>
+                <p>&nbsp;</p>
+                <p>With a passion for games since a young age, I began persuing my dream of developing computer games in 2018.</p>
+                <p>I am currently taking my hobby of making games since the age of 11, to a professional level using the skills gained in my spare time and collating them to excell as a developer. I enjoy the logical process required to find solutions, resulting in enjoyable game-play.</p>
+                <p>I was a programmer on the wining team at a game jam held at Staffordshire University and have been motivated to participate in as many game jams as possible while studying full time. </p>
+                <p>I enjoy attending gaming exhibitions as they provide the opportunity to converse with other professionals in the industry. I share my appreciation for their efforts and learn from their views and experiences.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+
+        <!-- Copyright -->
+        <ul class="copyright">
+            <li>&copy; blackrece.co.uk 2019. All rights reserved.</li>
+        </ul>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://blackrece.github.io/assets/js/jquery.min.js"></script>
+    <script src="https://blackrece.github.io/assets/js/jquery.scrolly.min.js"></script>
+    <script src="https://blackrece.github.io/assets/js/jquery.scrollex.min.js"></script>
+    <script src="https://blackrece.github.io/assets/js/browser.min.js"></script>
+    <script src="https://blackrece.github.io/assets/js/breakpoints.min.js"></script>
+    <script src="https://blackrece.github.io/assets/js/util.js"></script>
+    <script src="https://blackrece.github.io/assets/js/main.js"></script>
+	<script src="https://blackrece.github.io/assets/js/chart.min.js"></script>
+	<script src="https://blackrece.github.io/assets/js/skillschart.js"></script>
+
+</body>
 </html>
