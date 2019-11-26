@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/Satan Runner/Saves/menu.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Satan Runner/Saves/devil game.unity
+  isLoaded: 1
+  isActive: 1
