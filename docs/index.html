@@ -13,7 +13,7 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL Build.json", {onProgress: UnityProgress});
     </script>
 </head>
-<body class="is-preload">
+<body><!--body> class="is-preload"-->
 
     <!-- Header -->
     <div id="header">
@@ -56,15 +56,27 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- Satan Runner Portfolio -->
-        <section id="portfolio" class="two">
+        
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
             <div class="container">
 
-                <header>
-                    <h2>Satan Runner</h2>
+                <header class="bg">
+                    <div class="reset">
+                        <h2 class="alt reset"> <strong>Satan Runner</strong></h2>
+                    </div>
                 </header>
+                    
+                <footer>
+                        
+                </footer>
 
-                <p>A collection of games and applications of which I have participated; </p>
+            </div>
+        </section>
+
+        <!-- Demo -->
+        <section id="demo" class="two">
+            <div class="container">
 
               <div class="row">
                 <div class="col-12 col-12-mobile">
@@ -85,15 +97,9 @@
                     <section>
                       <h3>Controls</h3>
                       <table>
-                        <tr><td>Forward</td><td>W</td></tr>
-                        <tr><td>Backward</td><td>S</td></tr>
-                        <tr><td>Move Left</td><td>A</td></tr>
-                        <tr><td>Move Right</td><td>D</td></tr>
-                        <tr><td>Jump</td><td>Space Bar</td></tr>
+                        
                       </table>
-                      <p>You are SATAN! You have to MOVE FORWARD along the Pope's train, evading obstacles to reach and defeat the Pope.</p>
-                      <p>This was created in Unity in a team of five people for a game jam held by Staffordshire University to welcome new students.</p>
-                      <p>The jam was judged by representatives from Codemasters that offered prizes to the wining team.</p>
+                      
                     </section>
                   </article>
                 </div>
@@ -103,67 +109,42 @@
             </div>
         </section>
 
-        <!-- Intro -->
-        <section id="top" class="one dark cover">
-            <div class="container">
-
-                <header class="bg">
-                    <div class="reset">
-                        <h2 class="alt reset"> Hi! I'm <strong>Rece Thompson-Hamilton</strong>,</h2>
-                        <p class="reset">a passonate Computer Games Programming student at <a href="http://www.staffs.ac.uk">Staffordshire University</a>.</p>
-                        <p>I specialise in <i>game mechanics</i> and I love to make games more than playing them.</p>
-                        <p>&nbsp;</p>
-                    </div>
-                </header>
+        <!-- Controls -->
+        <section id="controls" class="three">
+          <div class="container">
+            <header>
+              <h2>Controls</h2>
+            </header>
                     
-                <footer>
-                        
-                </footer>
-
+            <div>
+                <table style="text-align: center;">
+                    <tbody>
+                      <tr><td>Forward</td><td>W</td></tr>
+                      <tr><td>Backward</td><td>S</td></tr>
+                      <tr><td>Move Left</td><td>A</td></tr>
+                      <tr><td>Move Right</td><td>D</td></tr>
+                      <tr><td>Jump</td><td>Space Bar</td></tr>
+                    </tbody>
+                </table>
             </div>
+            
+          </div>
         </section>
-
-		
-		<section id="skills" class="three">
-			<div class="container">
-				<header>
-					<h2>My Skills</h2>
-                </header>
-                
-                <div>
-                    <table style="text-align: center;">
-                        <tbody>
-                            <tr><td>C/C++</td><td>C#</td></tr>
-                            <tr><td>Visual Basic</td><td>Visual C</td></tr>
-                            <tr><td>HTML</td><td>CSS</td></tr>
-                            <tr><td>JavaScript</td><td>Java</td></tr>
-                            <tr><td>Unreal Engine</td><td>Unity</td></tr>
-                            <tr><td>GitHub</td><td>.Net</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-				<!--canvas id="skillsChart" /-->
-				
-			</div>
-		</section>
 
         <!-- About Me -->
         <section id="about" class="four">
             <div class="container">
 
                 <header>
-                    <h2>About Me</h2>
+                    <h2>About Satan Runner</h2>
                 </header>
 
                 
-                <div class="banner">
-                    <img class="" src="https://blackrece.github.io/images/Rece image.jpg" alt="Rece the Developer" />
+                <div>
+                  <p>Aim: You are SATAN! You have to MOVE FORWARD along the Pope's train, evading obstacles to reach and defeat the Pope.</p>
+                  <p>This was created in Unity in a team of five people for a game jam held by Staffordshire University to welcome new students.</p>
+                  <p>The jam was judged by representatives from Codemasters that offered prizes to the wining team.</p>
                 </div>
-                <p>&nbsp;</p>
-                <p>With a passion for games since a young age, I began persuing my dream of developing computer games in 2018.</p>
-                <p>I am currently taking my hobby of making games since the age of 11, to a professional level using the skills gained in my spare time and collating them to excell as a developer. I enjoy the logical process required to find solutions, resulting in enjoyable game-play.</p>
-                <p>I was a programmer on the wining team at a game jam held at Staffordshire University and have been motivated to participate in as many game jams as possible while studying full time. </p>
-                <p>I enjoy attending gaming exhibitions as they provide the opportunity to converse with other professionals in the industry. I share my appreciation for their efforts and learn from their views and experiences.</p>
             </div>
         </section>
 
